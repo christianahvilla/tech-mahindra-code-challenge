@@ -1,0 +1,23 @@
+.card {
+  margin: 10px;
+  padding: 20px;
+  cursor: pointer!important;
+}
+
+.selected {
+  background-color: blue!important;
+  color: white!important;
+  pointer-events: none;
+}
+
+.correct {
+  background-color: green!important;
+  color: white!important;
+  pointer-events: none;
+}
+
+.wrong {
+  background-color: red!important;
+  color: white!important;
+  pointer-events: none;
+}
