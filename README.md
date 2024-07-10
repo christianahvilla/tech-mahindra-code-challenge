@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
+# Card Matching Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a card matching game built with React, TypeScript, and Material-UI, using Vite as the build tool.
 
-Currently, two official plugins are available:
+## Requirements
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Node.js v20.x.x
+- pnpm (install using npm: `npm install -g pnpm`)
 
-## Expanding the ESLint configuration
+## Setup
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 1. Clone the Repository
 
-- Configure the top-level `parserOptions` property like this:
+```bash
+git clone https://github.com/christianahvilla/tech-mahindra-code-challenge.git
+cd tech-mahindra-code-challenge
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 2. Install Dependencies
+Using pnpm:
+```bash
+pnpm install
+```
+
+### 3. Start the Development Server
+Using pnpm:
+```bash
+pnpm dev
+```
+The development server will start, and you can view the application by opening your browser and navigating to http://localhost:5173.
